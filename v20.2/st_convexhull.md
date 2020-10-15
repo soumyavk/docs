@@ -2,6 +2,7 @@
 title: st_convexhull
 summary: st_convexhull XXX
 toc: true
+has_prefixed_variant: false
 ---
 
 `st_convexhull` works on the following spatial data types:
@@ -21,3 +22,10 @@ toc: true
 - [`st_touches`](st_touches.html)
 - [`st_convexhull`](st_convexhull.html)
 - [`st_union`](st_union.html)
+- [Working with Spatial Data](spatial-data.html)
+- [Spatial and GIS Glossary of Terms](spatial-glossary.html)
+- [Spatial functions](functions-and-operators.html#spatial-functions)
+- [Migrate from Shapefiles](migrate-from-shapefiles.html)
+- [Migrate from GeoJSON](migrate-from-geojson.html)
+- [Migrate from GeoPackage](migrate-from-geopackage.html)
+- [Migrate from OpenStreetMap](migrate-from-openstreetmap.html)

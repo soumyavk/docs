@@ -10,6 +10,22 @@ toc: true
 This documentation is still being worked on for the 20.2 release. For now, see the getting started tutorial in [Working with Spatial Data](spatial-data.html).
 {{site.data.alerts.end}}
 
+## Spatial functions
+
+In addition to the [generated reference documentation for spatial functions](functions-and-operators.html#spatial-functions), we have written additional documentation, including examples, for the following functions:
+
+- [`st_contains`](st_contains.html)
+- [`st_convexhull`](st_convexhull.html)
+- [`st_coveredby`](st_coveredby.html)
+- [`st_covers`](st_covers.html)
+- [`st_disjoint`](st_disjoint.html)
+- [`st_equals`](st_equals.html)
+- [`st_intersects`](st_intersects.html)
+- [`st_overlaps`](st_overlaps.html)
+- [`st_touches`](st_touches.html)
+- [`st_union`](st_union.html)
+- [`st_within`](st_within.html)
+
 ## See also
 
 - [Working with Spatial Data](spatial-data.html)
