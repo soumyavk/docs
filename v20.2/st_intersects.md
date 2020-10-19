@@ -5,11 +5,12 @@ toc: true
 has_prefixed_variant: true
 ---
 
+Given two `GEOMETRY` or `GEOGRAPHY` shapes, `st_intersects` will return `true` if the shapes share any of the same space - that is, if they are not [disjoint](st_disjoint.html).
+
 `{{page.title}}` works on the following spatial data types:
 
 - [`GEOMETRY`](spatial-glossary.html#geometry)
 - [`GEOGRAPHY`](spatial-glossary.html#geography)
-
 
 {% if page.has_prefixed_variant %}
 {{site.data.alerts.callout_info}}

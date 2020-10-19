@@ -12,7 +12,7 @@ This documentation is still being worked on for the 20.2 release. For now, see t
 
 ## Spatial functions
 
-In addition to the [generated reference documentation for spatial functions](functions-and-operators.html#spatial-functions), we have written additional documentation, including examples, for the following functions:
+In addition to the [generated reference documentation for spatial functions](functions-and-operators.html#spatial-functions), we have written additional documentation for the following functions, including examples:
 
 - [`st_contains`](st_contains.html)
 - [`st_convexhull`](st_convexhull.html)

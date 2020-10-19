@@ -9,6 +9,11 @@ has_prefixed_variant: false
 
 ## Examples
 
+{% include copy-clipboard.html %}
+~~~ sql
+SELECT st_asgeojson(st_convexhull(st_union(geom))) FROM bookstores WHERE geom IS NOT NULL AND address ILIKE '%, NY%';
+~~~
+
 ## See also
 
 - [`st_contains`](st_contains.html)
