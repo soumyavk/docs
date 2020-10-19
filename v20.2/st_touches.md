@@ -12,7 +12,7 @@ Given two shapes _A_ and _B_, `st_touches(A, B)` returns `true` if:
 
 In other words, _A_ and _B_ have a point along their boundaries in common (i.e., they "touch"), but none of their interior points intersect.  This distinction between shapes touching along a boundary vs. intersecting is also made by the [DE-9IM](spatial-glossary.html#de-9IM) standard.
 
-`st_touches` works on the following spatial data types:
+`st_touches` works on the following data types:
 
 - [`GEOMETRY`](spatial-glossary.html#geometry)
 
