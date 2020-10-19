@@ -1,13 +1,13 @@
 ---
 title: st_intersects
-summary: st_intersects returns true if XXX
+summary: st_intersects(A, B) returns true if any point in shape A lies within shape B.
 toc: true
 has_prefixed_variant: true
 ---
 
-Given two `GEOMETRY` or `GEOGRAPHY` shapes, `st_intersects` will return `true` if the shapes share any of the same space - that is, if they are not [disjoint](st_disjoint.html).
+Given two shapes _A_ and _B_, `st_intersects(A, B)` returns `true` if the shapes share any of the same space -- that is, if any point in the set that comprises _A_ is also a member of the set of points that make up _B_.
 
-`{{page.title}}` works on the following spatial data types:
+`st_intersects` works on the following data types:
 
 - [`GEOMETRY`](spatial-glossary.html#geometry)
 - [`GEOGRAPHY`](spatial-glossary.html#geography)
@@ -18,13 +18,24 @@ Given two `GEOMETRY` or `GEOGRAPHY` shapes, `st_intersects` will return `true` i
 {{site.data.alerts.end}}
 {% endif %}
 
+{{site.data.alerts.callout_info}}
+This function is the inverse of [`st_disjoint`](st_disjoint.html).
+{{site.data.alerts.end}}
+
 ## Examples
+
+XXX: WRITE ME
 
 ## See also
 
+- [Working with Spatial Data](spatial-data.html)
+- [Spatial and GIS Glossary of Terms](spatial-glossary.html)
+- [Spatial indexes](spatial-indexes.html)
+- [Spatial functions](functions-and-operators.html#spatial-functions)
+- [`st_covers()`](st_covers.html)
+- [`st_coveredby()`](st_coveredby.html)
 - [`st_contains`](st_contains.html)
 - [`st_within`](st_within.html)
-- [`st_intersects`](st_intersects.html)
 - [`st_coveredby`](st_coveredby.html)
 - [`st_covers`](st_covers.html)
 - [`st_disjoint`](st_disjoint.html)
@@ -33,9 +44,6 @@ Given two `GEOMETRY` or `GEOGRAPHY` shapes, `st_intersects` will return `true` i
 - [`st_touches`](st_touches.html)
 - [`st_convexhull`](st_convexhull.html)
 - [`st_union`](st_union.html)
-- [Working with Spatial Data](spatial-data.html)
-- [Spatial and GIS Glossary of Terms](spatial-glossary.html)
-- [Spatial functions](functions-and-operators.html#spatial-functions)
 - [Migrate from Shapefiles](migrate-from-shapefiles.html)
 - [Migrate from GeoJSON](migrate-from-geojson.html)
 - [Migrate from GeoPackage](migrate-from-geopackage.html)
